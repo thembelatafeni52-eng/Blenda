@@ -1,0 +1,1 @@
+This folder will hold Blenda's trading engine, strategies, and API communication.
