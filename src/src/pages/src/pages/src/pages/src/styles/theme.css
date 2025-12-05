@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #007bff;
+  --primary-dark: #0056b3;
+  --background-light: #f5f8ff;
+  --text-dark: #1a1a1a;
+  --card-bg: #ffffff;
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: var(--background-light);
+  color: var(--text-dark);
+}
+
+/* Card container layout */
+.card {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn-primary {
+  background: var(--primary-color);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+}
+
+/* Input fields */
+.input-box {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
