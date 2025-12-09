@@ -1,5 +1,45 @@
+/* Blenda Blue Theme */
+
 body {
-  font-family: Arial;
-  background: #e6f0ff;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #e6f0ff; /* light blue */
+  color: #003366;      /* dark navy blue */
+}
+
+/* Navigation Bar */
+nav {
+  background: #004aad; /* strong blue */
+  padding: 14px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Page Container */
+.container {
+  padding: 30px;
+}
+
+/* Headings */
+h1 {
+  font-size: 28px;
+  color: #002244;
+}
+
+/* Paragraph */
+p {
+  font-size: 18px;
   color: #003366;
 }
