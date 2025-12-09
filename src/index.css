@@ -1,0 +1,13 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #0A1733; /* Deep blue theme */
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
