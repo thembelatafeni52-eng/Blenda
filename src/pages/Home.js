@@ -1,10 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default function Home() {
+function Home() {
   return (
-    <div className="container">
-      <h1>Blenda Dashboard</h1>
+    <div style={{ padding: "40px", textAlign: "center" }}>
+      <h1>Welcome to Blenda</h1>
       <p>Your smart trading assistant.</p>
+
+      <div style={{ marginTop: "30px" }}>
+        <Link to="/login" style={{ marginRight: "20px" }}>
+          Login
+        </Link>
+        <Link to="/register">Register</Link>
+      </div>
     </div>
   );
 }
+
+export default Home;
